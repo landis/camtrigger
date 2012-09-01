@@ -9,6 +9,7 @@ Huge thanks go to http://www.doc-diy.net/photo/rc-1_hacked/index.php for figurin
 #define statusLED 13
 #define pushBUTTON 7
 #define piezo A0
+#define flashPin 6
 
 int interval = 15; //seconds
 int timelapseDuration = 60; //seconds
@@ -52,13 +53,6 @@ void loop() {
     // turn off the light, we're done
     digitalWrite(statusLED, LOW);
   }
-  
-  //#####   Flash sensor code
-  //
-  //
-  //
-  //
-  //
   
 }
 
